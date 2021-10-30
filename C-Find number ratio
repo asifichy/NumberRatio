@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main()
+{
+    int a,b,c,d, diff1, diff2;
+
+    printf("Enter 4 integer inputs: ");
+    scanf("%d %d %d %d", &a,&b,&c,&d);
+
+    diff1 = (a-b);
+    diff2 = (c-d);
+
+    int result = (a-b)/(c-d);
+
+    printf("Difference between first two numbers: %d\n", diff1);
+    printf("Difference between last two numbers: %d\n", diff2);
+    printf("Result: %d\n", result);
+
+    return 0;
+}
